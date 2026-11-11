@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "just-the-clip",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-01",
+  "observability": { "enabled": true },
+  "vars": {
+    // Main button and logo color.
+    "ACCENT_COLOR": "#2350E6"
+
+    // Sponsor spot: leave these out to keep it hidden. To turn it on, add them
+    // here or under Settings > Variables in the Cloudflare dashboard:
+    // "SPONSOR_NAME": "Acme Hearing",
+    // "SPONSOR_LINE": "Free hearing check this month",
+    // "SPONSOR_URL": "https://example.com",
+    // "SPONSOR_LOGO": "https://example.com/logo.png"
+  }
+  // LINK_SECRET is a secret, so it is NOT kept in this file. Set it in the
+  // Cloudflare dashboard (Settings > Variables and Secrets > Add > Secret).
+}
